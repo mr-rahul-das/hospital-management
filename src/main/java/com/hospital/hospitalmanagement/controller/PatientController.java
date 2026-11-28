@@ -19,7 +19,7 @@ import com.hospital.hospitalmanagement.service.PatientService;
 import jakarta.validation.Valid;
 
 @RestController
-@RequestMapping("/api/patients")
+@RequestMapping("/patients")
 public class PatientController {
 
     private final PatientService patientService;
